@@ -1,11 +1,11 @@
 # agc-server-demo-java
 [![license](https://img.shields.io/badge/license-Apache--2.0-green)](./LICENCE)
 
-This repo contains the source code for AGC server Demos, which are developed by the AppGallery Connect team.
+This repo contains the source code for AGC Quickgame Demos, which are developed by the AppGallery Connect team.
 
 These demos enable access to using specific APIs. For more information
 about demos, and how to use them, see
-[Official Documentations](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Examples/agc-auth-server-samplecode-0000001059044778).
+[Official Documentations](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-auth-quickgame-getstarted-0000001133708403).
 
 
 ## Introduction
@@ -13,7 +13,10 @@ These are the available demos in this repository.
 
 | Demo | Version | Documentation |
 |--------|-----|-----|
-| [authservice](./authservice) | [![version](https://img.shields.io/badge/Release-1.2.0.300-yellow)](./authservice) | [Getting Started](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-auth-server-getstarted-0000001054287616) <br/> [API Reference](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-References/auth-serversdk-overview-0000001055363337) |
+| [auth](./auth) | [![version](https://img.shields.io/badge/Release-1.2.0.300-yellow)](./auth) | [Getting Started](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-auth-server-getstarted-0000001054287616) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/agc-auth-service-webapi-overview-0000001054343230) |
+| [clouddb](./auth) | [![version](https://img.shields.io/badge/Release-1.2.0.300-yellow)](./clouddb) | [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-clouddb-get-started-quickgame-0000001128615740) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/clouddb-quickgame-overview-0000001174627637) |
+| [cloudfunction](./cloudstorage) | [![version](https://img.shields.io/badge/Release-1.2.0.300-yellow)](./cloudfunction) | [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-cloudfunction-functioncall-quickgame-0000001136048664) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/overview-web-0000001059879805) |
+| [remoteconfig](./remoteconfig) | [![version](https://img.shields.io/badge/Release-1.2.0.300-yellow)](./remoteconfig) | [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-remoteconfig-quickapp-getstarted-0000001133920087) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/web-remoteconfig-overview-0000001057829368) |
 
 ## Precautions
 The agc-android-demos project contains several independent projects. After downloading the code, you can load different nested projects to the IDE as required. And you can run each project independently.
