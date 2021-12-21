@@ -1,4 +1,4 @@
-# agc-server-demo-java
+# agc-quickgame-demos
 [![license](https://img.shields.io/badge/license-Apache--2.0-green)](./LICENCE)
 
 This repo contains the source code for AGC Quickgame Demos, which are developed by the AppGallery Connect team.
@@ -14,7 +14,7 @@ These are the available demos in this repository.
 | Demo | Version | Documentation |
 |--------|-----|-----|
 | [auth](./auth) | [![version](https://img.shields.io/badge/Release-1.3.1-yellow)](./auth) | [Getting Started](https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agc-auth-server-getstarted-0000001054287616) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/agc-auth-service-webapi-overview-0000001054343230) |
-| [clouddb](./auth) | [![version](https://img.shields.io/badge/Release-1.3.1-yellow)](./clouddb) | [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-clouddb-get-started-quickgame-0000001128615740) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/clouddb-quickgame-overview-0000001174627637) |
+| [clouddb](./auth) | [![version](https://img.shields.io/badge/Release-1.1.1-yellow)](./clouddb) | [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-clouddb-get-started-quickgame-0000001128615740) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/clouddb-quickgame-overview-0000001174627637) |
 | [cloudfunction](./cloudstorage) | [![version](https://img.shields.io/badge/Release-1.3.1-yellow)](./cloudfunction) | [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-cloudfunction-functioncall-quickgame-0000001136048664) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/overview-web-0000001059879805) |
 | [remoteconfig](./remoteconfig) | [![version](https://img.shields.io/badge/Release-1.3.1-yellow)](./remoteconfig) | [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-remoteconfig-quickapp-getstarted-0000001133920087) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/web-remoteconfig-overview-0000001057829368) |
 
