@@ -69,6 +69,22 @@ export default class Log extends cc.Component {
         }
     }
 
+    async signInAnonymously() {
+        try {
+            const user = await agconnect.auth().getCurrentUser();
+            if (user) {
+                console.log('already signIn');
+                this.errorMessage.string = 'already signIn';
+                cc.director.loadScene('Main');
+            }
+            const d = await agconnect.auth().signInAnonymously();
+            console.log('signIn success');
+            cc.director.loadScene('Main');
+        } catch (e) {
+            this.errorMessage.string = 'signIn Failed. [error] ' + JSON.stringify(e);
+        }
+    }
+
     back() {
         cc.director.loadScene('Main');
     }

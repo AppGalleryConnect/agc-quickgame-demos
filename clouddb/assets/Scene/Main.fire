@@ -3080,13 +3080,13 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 3,
+    "_N$overflow": 1,
     "_N$cacheMode": 0,
     "_id": "51rLPQlEhOY5MeoeJD0GCY"
   },
   {
     "__type__": "cc.Node",
-    "_name": "dataLabel",
+    "_name": "dataString",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1
@@ -3109,8 +3109,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 500,
-      "height": 75.6
+      "width": 450,
+      "height": 500
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3122,7 +3122,7 @@
       "ctor": "Float64Array",
       "array": [
         250.507,
-        364.731,
+        341.337,
         0,
         0,
         0,

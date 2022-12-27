@@ -14,8 +14,8 @@
 * limitations under the License.
 */
 
-import * as context from './config/agconnect-services.json';
-import * as schema from "./config/app-schema.json";
+import * as context from './config/agconnect-services';
+import * as schema from "./config/app-schema";
 import { BookInfo } from './model/BookInfo';
 
 let agConnectCloudDB;

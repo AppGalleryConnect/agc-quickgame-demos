@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-import * as context from './config/agconnect-services.json';
+import * as context from './config/agconnect-services';
 import { operate } from "./operate";
 
 const {ccclass, property} = cc._decorator;
@@ -29,7 +29,7 @@ export default class NewClass extends cc.Component {
         try {
             if (operate.isOpenZone()) {
                 const da = await operate.queryDate();
-                this.dataString.string = JSON.stringify(da);
+                this.dataString.string = JSON.stringify(da.getSnapshotObjects()).substring(0, 200);
             }
         } catch (e) {
             console.error('error');
